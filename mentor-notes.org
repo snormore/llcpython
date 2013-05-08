@@ -1,17 +1,17 @@
 
 * Python for Absolute Beginners
-  Lead Instructor: 
+**  Lead Instructor: 
     Tavis Rudd @tavisrudd. 
       I've been programming with Python professionally for 13 years.  
       My first big Python project was http://cheetahtemplate.org/ (a long time
       ago!). Surprisingly, Dropbox, Yelp and many others still use it.  
       I use Python to code by voice https://www.youtube.com/watch?v=8SkdfdXWYaI
 
-  Assistant Instructors:
+**  Assistant Instructors
     Grace Maierhoffer
     Chani Armitage
     Holly Becker
-  Mentors: (thanks!)  
+**  Mentors: (thanks!)  
     Duncan Lock
     Ellie Frost
     Ted Hart
