@@ -1,0 +1,265 @@
+
+* Python for Absolute Beginners
+  Lead Instructor: 
+    Tavis Rudd @tavisrudd. 
+      I've been programming with Python professionally for 13 years.  
+      My first big Python project was http://cheetahtemplate.org/ (a long time
+      ago!). Surprisingly, Dropbox, Yelp and many others still use it.  
+      I use Python to code by voice https://www.youtube.com/watch?v=8SkdfdXWYaI
+
+  Assistant Instructors:
+    Grace Maierhoffer
+    Chani Armitage
+    Holly Becker
+  Mentors: (thanks!)  
+    Duncan Lock
+    Ellie Frost
+    Ted Hart
+    Kaushik Choudhary
+    Matt Smillie
+    Sara Dadizadeh
+    Don Burks
+    Israa Elnjjar
+    Caitlin Tuba
+
+* Objectives
+- Excite the students about programming.
+
+- Get them using Python immediately, within the first few minutes, and
+  continually throughout the day. The bulk of our time should them
+  typing and experimenting rather than us talking.
+
+- Leverage their intuition instead of knowledge dumping.
+
+- Our key objective is to give them courage and tools to experiment
+  with the absolute basics of Python. This is not "computer science in
+  one day" although I do want to introduce a few higher level concepts.
+
+* Please Come Prepared
+
+Recent version of FireFox, Google Chrome or Safari (desktop version).
+No Internet Explorer.
+
+Install this distribution of Python: http://continuum.io/downloads.html
+
+Review the basic use of:
+http://ipython.org/notebook.html
+
+* IPython Notebook
+
+We're using the "IPython Notebook" (http://ipython.org/
+http://nbviewer.ipython.org/) for all the exercises. It's a web based
+Python console that has several advantages over text based Python
+shells and text editors:
+
+- We can delay "installation" of Python until later in the day and get 
+  started coding immediately. Provided the wifi is working (and we have 
+  backup plans if it isn't), students will only need to click a URL to get 
+  started.
+
+- It doesn't require the use of a separate text editor and allows us
+  to avoid the problem of students struggling in different editors on
+  different OSes.
+
+- Students are already used to typing into text input fields in the
+  browser so it is less intimidating.
+
+- There is a large library of 'notebooks' available on the web that
+  students can explore on their own
+  https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks
+
+- It allows us to embed English text, images, videos, graphs and many
+  other interactive elements inline right next to the code. They can
+  do the same with their own notes.
+
+- And most importantly, we can base our exercises on the "ipythonblocks" 
+  library:
+  http://nbviewer.ipython.org/urls/raw.github.com/jiffyclub/ipythonblocks/master/demos/ipythonblocks_demo.ipynb 
+
+  This gives students immediate visual feedback that will help them 
+  understand what the language is doing.
+
+I've taught Python data analysis with IPython Notebook before and found 
+it cuts through a lot of the stumbling blocks and trivial issues that 
+usually get in the way of learning when students are working with text 
+editors and the command line. http://software-carpentry.org/ has been 
+using it in their classes for the past year and have had very positive 
+results when teaching beginners.
+ 
+* Try first, build intuition and confidence, explain later
+
+Instead of using text-heavy slides and explaining concepts such as types 
+to them up front, we're trying to follow the teaching style of Rosetta 
+Stone. Their courses focus on *use* of the language rather than theory 
+or vocab lists. They foster students' confidence and intuition through a 
+series of short interactive exercises that build vocab and concepts a 
+step at a time.
+
+For each concept we introduce we have the students use it first and
+develop an intuition for what it is or does. We give students time to
+explore and experiment after each new concept is introduced. We then
+follow up with guided discussion to answer any questions and clear up
+any misunderstandings.
+
+We're also going to focus on having the students 'ask' Python for the
+help they need. IPython has an excellent, interactive help system that
+provides users with instant information about the objects and
+functions they are working with. For example, if a student wants to
+know what a function does, what args it takes and what it returns they
+just type "my_func?". We may also have them lookup a few things via
+StackOverflow and Google.
+
+* Rough Timeline and Topics
+10 AM until just before 5 PM.  45 min for lunch and several 10 min breaks.
+
+The topics below will be covered through exercises and guided
+discussion rather than through a formal lecture with slides format.
+
+Morning: 10:00 - 12:30
+  - introductions and settling in
+  - calling a few fun functions
+  - getting comfortable the IPython UI
+  - the basic syntax for simple scalar values
+    integers, strings, bools
+  - some fun with ipython blocks
+    - colors, blocks and grids
+  - simple collections and ordered sequences
+    - tuples (colors are 3-tuples of ints)
+    - lists (grids are 2 dimensional lists of colors)
+    - slice notation to access the elements of a sequence
+    - quickly note that strings are sequences of characters
+    - finding the length of the sequence `len`
+  - learning to ask ipython for help
+    ?, ?? and help()
+    (see http://scienceoss.com/getting-help-in-ipython/)
+  - introduce variables but don't explain them in depth, rely on intuition
+
+  No direct mention of: 
+    - indented block syntax structure
+    - variable scoping aside from top-down
+    - mutability
+    - reusing the same variable name
+
+Lunch: 12:30 - 13:15
+
+Afternoon: 13:15 - 16:45
+  - review what we learned in the morning
+  - iteration and repetition (more fun with ipython blocks)
+    starting with 1 line list comprehensions and moving to indented block syntax
+  - introduce dictionaries aka mappings
+  - intro booleans values with set membership tests and simple equality tests
+  - pure functions as mappings: input -> output
+  - functions for side effects: 
+    print this, print that, change this, change that, post to tumblr
+  - functions with more than one argument
+  - writing their own simple functions (again with blocks)
+  - briefly, the notion of mutable vs immutable things / review variables as boxes for values
+  - basic notion of variable scope re functions and arguments
+  - conditional logic: branching, short-circuiting (fun with blocks again)
+  - == vs =
+  - installing IPython on their own machines (maybe get started on this during lunch)
+  - what next? How to keep learning and experimenting?
+
+* Detailed Timeline 
+This is still subject to minor change as I finish up the exercises. 
+They'll be finished and available to you on Thursday.
+
+- 9:30-10:00  :: Doors open and people settle in.
+
+  We want to get students setup with power / WiFi and split
+  into groups of 4 during this time.
+
+- 10:00-10:30 :: Introductions and first steps. See introduction.ipynb 
+  - finish settling in. Please mingle the students and help them with WiFi and introduce yourselves.
+  - introductory video embedded inside of ipython notebook
+    #+begin_src python
+    # Any line starting with one or more hash (#) is a comment. 
+    # Comments are for you and other readers of the code. Python ignores them.
+    ## Activate the next 2 lines by removing the hashes. 
+    ## Then click the 'run cell' (play) button in the toolbar above.
+    
+    #from IPython.display import YouTubeVideo
+    #YouTubeVideo("nKIu9yen5nc")
+    #+end_src
+
+    https://www.youtube.com/watch?v=nKIu9yen5nc hopefully this five-minute video set the
+    tone for the rest of the day.
+    
+  - "Hello Ladies Learning Code"
+    Our second exercise is a modern variant of hello world. 
+    Calling this function will post their introduction to our shared class blog: 
+       http://llcpythonyvr.tumblr.com/
+    #+begin_src python
+    ## Replace the text in the quotes below with something of your own.
+    ## Keep it on a single line and don't remove the quotes or the parentheses.
+    ## Then click the play button again.
+    from llc_python import hello_llc
+    hello_llc("A single line intro from you to the class -- Your name.")
+    #+end_src
+
+  - Group discussion about what programming is and what programming languages are.
+  - Why start with Python?
+  - Why do they want to learn it?
+    
+- 10:30-10:40 :: learning IPython's UI and help facilities
+  - also learn not to freak out at syntax errors/exceptions
+    Overcoming the 'I broke it - help!' syndrome
+
+- 10:40-11:00 :: basic scalar values
+- 11:00-11:30 :: fun with IPython blocks
+
+- 11:30-11:40 :: BREAK / discuss
+
+- 11:40-12:30 :: collections and sequences
+
+- 12:30-13:15 :: LUNCH
+
+- 13:15-13:35 :: review and questions
+
+- 13:35-14:00 :: iteration and repetition
+
+- 14:00-14:05 :: BREAK / discuss
+
+- 14:05-14:30 :: more playing with blocks to explore for loops
+
+- 14:30-14:50 :: dictionaries & sets (examples of unordered collections)
+  - make some dictionaries 
+  - get stuff back out
+  - make some sets of things
+
+- 14:50-15:10 :: interfaces / protocols by example
+  This is one of the key concepts in Python. http://en.wikipedia.org/wiki/Abstract_data_type
+  Common interfaces allow abstraction and, especially in Python's case, syntactic sugar.
+
+  - exercise to test for membership:
+    - in a dict
+    - in a list or tuple
+    - a substring in a string
+    - in a set
+    - syntactically they all look identical and they are semantically equivalent
+    - mention this as example of interfaces/protocols/ADTs and Duck Typing
+  - mention other key protocols
+    - mapping is one
+    - sequences are another
+    - functions (callable things that map input -> output) are the next we'll explore
+
+- 15:10-15:15 :: BREAK / dicuss
+
+- 15:15-15:35 :: functions (still working on the exercises for this)
+  - as mappings (input -> output) just like maps are key -> value
+  - like expressions/equations in algebra
+  - side-effect free expressions can be abstracted into functions and reused
+  - functions can be parameterized
+  - vs functions for side-effects, can also abstracted and reused
+  - def
+  - arguments
+
+- 15:35-16:00 :: playing with abstracting things via functions
+
+- 16:00-16:05 :: BREAK / discuss
+
+- 16:05-16:35 :: branching and control flow via if/elif/else
+  - exercise that combines this with iteration and the functions from previous exercises
+
+- 16:35-17:00 :: wrap-up discussion and install IPython on their own computers
+  - what next? How to keep learning and experimenting?
