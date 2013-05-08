@@ -171,8 +171,8 @@ They'll be finished and available to you on Thursday.
   into groups of 4 during this time.
 
 - 10:00-10:30 :: Introductions and first steps. See introduction.ipynb 
-  - finish settling in. Please mingle the students and help them with WiFi and introduce yourselves.
-  - introductory video embedded inside of ipython notebook
+  + finish settling in. Please mingle the students and help them with WiFi and introduce yourselves.
+  + introductory video embedded inside of ipython notebook
     #+begin_src python
     # Any line starting with one or more hash (#) is a comment. 
     # Comments are for you and other readers of the code. Python ignores them.
@@ -186,7 +186,7 @@ They'll be finished and available to you on Thursday.
     https://www.youtube.com/watch?v=nKIu9yen5nc hopefully this five-minute video set the
     tone for the rest of the day.
     
-  - "Hello Ladies Learning Code"
+  + "Hello Ladies Learning Code"
     Our second exercise is a modern variant of hello world. 
     Calling this function will post their introduction to our shared class blog: 
        http://llcpythonyvr.tumblr.com/
@@ -198,9 +198,9 @@ They'll be finished and available to you on Thursday.
     hello_llc("A single line intro from you to the class -- Your name.")
     #+end_src
 
-  - Group discussion about what programming is and what programming languages are.
-  - Why start with Python?
-  - Why do they want to learn it?
+  + Group discussion about what programming is and what programming languages are.
+  + Why start with Python?
+  + Why do they want to learn it?
     
 - 10:30-10:40 :: learning IPython's UI and help facilities
   - also learn not to freak out at syntax errors/exceptions
