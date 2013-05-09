@@ -33,3 +33,6 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+/tmp/ladies.python.zip
+/tmp/ladies-learning-python/
+/tmp/misc-prep-notes.org
