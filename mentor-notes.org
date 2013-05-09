@@ -162,8 +162,9 @@ Afternoon: 13:15 - 16:45
   - what next? How to keep learning and experimenting?
 
 * Detailed Timeline 
-This is still subject to minor change as I finish up the exercises. 
-They'll be finished and available to you on Thursday.
+This is still subject to minor change as I finish up the exercises.
+They'll be finished and available to you on Thursday. See the
+"Notebooks and code for exercises" section at the bottom of this doc.
 
 - 9:30-10:00  :: Doors open and people settle in.
 
@@ -265,3 +266,18 @@ http://nbviewer.ipython.org/urls/raw.github.com/tavisrudd/llc_python/master/01_i
 http://nbviewer.ipython.org/urls/raw.github.com/tavisrudd/llc_python/master/02_hello_llc.ipynb
 
 relies on [[file:llc_python.py][llc_python.py]]
+** [[file:03-ColorsBlocks.ipynb][03-ColorsBlocks.ipynb]] (intro to scalar values and ipython blocks)   
+   :PROPERTIES:
+   :ID:       46d71604-c21b-4816-ae4d-44d6c4b71911
+   :END:
+
+still working on this one
+http://nbviewer.ipython.org/urls/raw.github.com/tavisrudd/llc_python/master/03-ColorsBlocks.ipynb
+
+** [[file:04-PlayGrid.ipynb][04-PlayGrid.ipynb]] still working on this one
+   :PROPERTIES:
+   :ID:       5580dc65-b254-4997-a4ef-b0427703f7b2
+   :ADDED:    [2013-05-08 Wed 18:00]
+   :END:
+
+http://nbviewer.ipython.org/urls/raw.github.com/tavisrudd/llc_python/master/04-PlayGrid.ipynb
