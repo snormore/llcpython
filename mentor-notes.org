@@ -252,44 +252,16 @@ They'll be finished and available to you on Thursday.
   - what next? How to keep learning and experimenting?
 
 * Notebooks and code for exercises
-** 01_introduction.ipynb (video and explanation of comments)
+** [[file:01_introduction.ipynb][01_introduction.ipynb]] (video and explanation of comments)
    :PROPERTIES:
    :ID:       375faef3-d18d-425e-8bbd-c19d17bdac9f
    :END:
 http://nbviewer.ipython.org/urls/raw.github.com/tavisrudd/llc_python/master/01_introduction.ipynb
 
-** 02_hello_llc.ipynb (strings, our first var, and our first fn to post to tumblr)
+** [[file:02_hello_llc.ipynb][02_hello_llc.ipynb]] (strings, our first var, and our first fn to post to tumblr)
    :PROPERTIES:
    :ID:       af6057cf-7f70-4b41-82f2-c9aba1c32c4b
    :END:
 http://nbviewer.ipython.org/urls/raw.github.com/tavisrudd/llc_python/master/02_hello_llc.ipynb
 
-# llc_python.py v1
-#+begin_src python
-import pytumblr
-from IPython.core.display import HTML
-
-hostname = 'llcpythonyvr.tumblr.com'
-consumer_key = 'hS4941NymGq8rSNlli6j5HnvQj7cXPnXHljEOzr7A6PDJW5Bpb'
-consumer_secret = 'jyKtPAeXjF1kCiNnBYZdQVWN1gMZlZ7zsRqCYva1SB5EpHXuhX'
-
-access_token_secret, access_token_key = (
-  'SFSz9f6Cp9iRWPUV1uZfZmhMF7wCAIibQG5oROZmjs3qfCgQ1b',
-  'uZeAZYkh6GpAGKHTTCGLDNcJmmEn5Ki3VXUqV7q4X6pElDZZOb')
-
-client = pytumblr.TumblrRestClient(consumer_key, consumer_secret, 
-      access_token_key, access_token_secret)
-
-def hello_llc(blog_text):
-    """hello_llc(blog_text) :: string -> None. Side-effect of creating a tumblr post.
-
-    Upload `blog_text` to our shared class tumblr blog http://llcpythonyvr.tumblr.com/
-    """
-    result = client.create_text(hostname, body=blog_text)
-    return HTML(
-       '''Uploading now. 
-       Click <a href="http://llcpythonyvr.tumblr.com/" target="new">here</a> for the post. 
-       Tubmlr replied "%s".'''
-       % result)
-
-#+end_src
+relies on [[file:llc_python.py][llc_python.py]]
