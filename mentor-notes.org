@@ -161,7 +161,10 @@ Afternoon: 13:15 - 16:45
   - installing IPython on their own machines (maybe get started on this during lunch)
   - what next? How to keep learning and experimenting?
 
-* Detailed Timeline 
+* Detailed Timeline
+  :PROPERTIES:
+  :ID:       c6ba8da4-2c97-4ffd-9bc6-60b65ad377b1
+  :END: 
 This is still subject to minor change as I finish up the exercises.
 They'll be finished and available to you on Thursday. See the
 "Notebooks and code for exercises" section at the bottom of this doc.
@@ -189,12 +192,14 @@ They'll be finished and available to you on Thursday. See the
   + Why start with Python?
   + Why do they want to learn it?
     
-- 10:30-10:40 :: learning IPython's UI and help facilities
+- 10:30-11:10 :: ipythonblocks pt1
+  - learning IPython's UI and help facilities
   - also learn not to freak out at syntax errors/exceptions
     Overcoming the 'I broke it - help!' syndrome
+  - lesson plan: see the notes and comments in the notebook
+      03-ColorsBlocks.ipynb
 
-- 10:40-11:00 :: basic scalar values
-- 11:00-11:30 :: fun with IPython blocks
+- 11:10-11:30 :: fun with IPython blocks
 
 - 11:30-11:40 :: BREAK / discuss
 
@@ -266,7 +271,7 @@ http://nbviewer.ipython.org/urls/raw.github.com/tavisrudd/llc_python/master/01_i
 http://nbviewer.ipython.org/urls/raw.github.com/tavisrudd/llc_python/master/02_hello_llc.ipynb
 
 relies on [[file:llc_python.py][llc_python.py]]
-** [[file:03-ColorsBlocks.ipynb][03-ColorsBlocks.ipynb]] (intro to scalar values and ipython blocks)   
+** [[file:03-ColorsBlocks.ipynb][03-ColorsBlocks.ipynb]] (intro to scalar values, ipython blocks, help functions, tuples)   
    :PROPERTIES:
    :ID:       46d71604-c21b-4816-ae4d-44d6c4b71911
    :END:
