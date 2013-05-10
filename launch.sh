@@ -8,5 +8,5 @@ for F in llc_python.py 01_introduction.ipynb 02_hello_llc.ipynb \
 done
 echo 'starting ipython'
 /home/ec2-user/anaconda/bin/ipython notebook --ip='0.0.0.0' --no-browser &
-sleep 5
+sleep 10
 python -c "from llc_python import hello_llc; hello_llc('http://`curl http://instance-data.ec2.internal/latest/meta-data/public-hostname`:8888')"
