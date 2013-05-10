@@ -199,28 +199,47 @@ They'll be finished and available to you on Thursday. See the
   - lesson plan: see the notes and comments in the notebook
       03-ColorsBlocks.ipynb
 
-- 11:10-11:30 :: fun with IPython blocks
+- 11:10-11:30 :: fun with IPython blocks 04-PlayGrid.ipynb 
 
 - 11:30-11:40 :: BREAK / discuss
+  once we reach the happy face part in 04-PlayGrid.ipynb
 
 - 11:40-12:30 :: collections and sequences
+  the rest of 04-PlayGrid.ipynb
 
 - 12:30-13:15 :: LUNCH
 
 - 13:15-13:35 :: review and questions
 
-- 13:35-14:00 :: iteration and repetition
+- 13:35-14:00 :: iteration and repetition 
+  05-FeelingLoopy.ipynb
 
 - 14:00-14:05 :: BREAK / discuss
 
-- 14:05-14:30 :: more playing with blocks to explore for loops
+- 14:05-14:30 :: more playing with blocks to explore for loops 
+  05-FeelingLoopy.ipynb
 
-- 14:30-14:50 :: dictionaries & sets (examples of unordered collections)
+- 14:30-15:10 :: functions 
+  06-Functions.ipynb
+
+- 15:10-15:15 :: BREAK / dicuss
+
+- 15:15-15:35 :: playing with abstracting things via functions
+
+more branching and control flow via if/elif/else if time
+
+- 15:35-16:00 :: dictionaries & sets (examples of unordered collections)
   - make some dictionaries 
   - get stuff back out
   - make some sets of things
 
-- 14:50-15:10 :: interfaces / protocols by example
+  - functions as mappings (input -> output) just like maps are key -> value
+  - like expressions/equations in algebra
+  - side-effect free expressions can be abstracted into functions and reused
+
+- 16:00-16:05 :: BREAK / discuss
+
+- 16:05-16:35 :: interfaces / protocols by example
   This is one of the key concepts in Python. http://en.wikipedia.org/wiki/Abstract_data_type
   Common interfaces allow abstraction and, especially in Python's case, syntactic sugar.
 
@@ -235,24 +254,6 @@ They'll be finished and available to you on Thursday. See the
     - mapping is one
     - sequences are another
     - functions (callable things that map input -> output) are the next we'll explore
-
-- 15:10-15:15 :: BREAK / dicuss
-
-- 15:15-15:35 :: functions (still working on the exercises for this)
-  - as mappings (input -> output) just like maps are key -> value
-  - like expressions/equations in algebra
-  - side-effect free expressions can be abstracted into functions and reused
-  - functions can be parameterized
-  - vs functions for side-effects, can also abstracted and reused
-  - def
-  - arguments
-
-- 15:35-16:00 :: playing with abstracting things via functions
-
-- 16:00-16:05 :: BREAK / discuss
-
-- 16:05-16:35 :: branching and control flow via if/elif/else
-  - exercise that combines this with iteration and the functions from previous exercises
 
 - 16:35-17:00 :: wrap-up discussion and install IPython on their own computers
   - what next? How to keep learning and experimenting?
@@ -279,10 +280,24 @@ relies on [[file:llc_python.py][llc_python.py]]
 still working on this one
 http://nbviewer.ipython.org/urls/raw.github.com/tavisrudd/llc_python/master/03-ColorsBlocks.ipynb
 
-** [[file:04-PlayGrid.ipynb][04-PlayGrid.ipynb]] still working on this one
+** [[file:04-PlayGrid.ipynb][04-PlayGrid.ipynb]] 
    :PROPERTIES:
    :ID:       5580dc65-b254-4997-a4ef-b0427703f7b2
    :ADDED:    [2013-05-08 Wed 18:00]
    :END:
 
 http://nbviewer.ipython.org/urls/raw.github.com/tavisrudd/llc_python/master/04-PlayGrid.ipynb
+** [[file:05-FeelingLoopy.ipynb][05-FeelingLoopy.ipynb]] 
+   :PROPERTIES:
+   :ID:       8a3c04c9-c5f6-494f-b892-4a49fec1bc39
+   :ADDED:    [2013-05-09 Thu 21:55]
+   :END:
+
+http://nbviewer.ipython.org/urls/raw.github.com/tavisrudd/llc_python/master/05-FeelingLoopy.ipynb
+** [[file:06-Functions.ipynb][06-Functions.ipynb]]
+   :PROPERTIES:
+   :ID:       7f560cbd-bc8c-4912-ae04-9e4b6d72ee3a
+   :ADDED:    [2013-05-09 Thu 21:57]
+   :END:
+
+http://nbviewer.ipython.org/urls/raw.github.com/tavisrudd/llc_python/master/06-Functions.ipynb
