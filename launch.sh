@@ -1,5 +1,6 @@
 #!/bin/bash
 cd /home/ec2-user/
+rm *ipynb
 
 for F in llc_python.py 01_introduction.ipynb 02_hello_llc.ipynb \
     03-ColorsBlocks.ipynb 04-PlayGrid.ipynb 05-FeelingLoopy.ipynb 06-Functions.ipynb 07-MindBlown.ipynb; do
