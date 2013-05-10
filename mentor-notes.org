@@ -149,11 +149,11 @@ Afternoon: 13:15 - 16:45
     starting with 1 line list comprehensions and moving to indented block syntax
   - introduce dictionaries aka mappings
   - intro booleans values with set membership tests and simple equality tests
-  - pure functions as mappings: input -> output
   - functions for side effects: 
     print this, print that, change this, change that, post to tumblr
   - functions with more than one argument
   - writing their own simple functions (again with blocks)
+  - pure functions as mappings: input -> output
   - briefly, the notion of mutable vs immutable things / review variables as boxes for values
   - basic notion of variable scope re functions and arguments
   - conditional logic: branching, short-circuiting (fun with blocks again)
@@ -225,21 +225,12 @@ They'll be finished and available to you on Thursday. See the
 - 15:10-15:15 :: BREAK / dicuss
 
 - 15:15-15:35 :: playing with abstracting things via functions
+  06-Functions.ipynb
+  more branching and control flow via if/elif/else if time
 
-more branching and control flow via if/elif/else if time
+- 15:35-16:00 :: 07-MindBlown.ipynb
+  Some simple boolean expression leading into interfaces / protocols by example
 
-- 15:35-16:00 :: dictionaries & sets (examples of unordered collections)
-  - make some dictionaries 
-  - get stuff back out
-  - make some sets of things
-
-  - functions as mappings (input -> output) just like maps are key -> value
-  - like expressions/equations in algebra
-  - side-effect free expressions can be abstracted into functions and reused
-
-- 16:00-16:05 :: BREAK / discuss
-
-- 16:05-16:35 :: interfaces / protocols by example
   This is one of the key concepts in Python. http://en.wikipedia.org/wiki/Abstract_data_type
   Common interfaces allow abstraction and, especially in Python's case, syntactic sugar.
 
@@ -251,9 +242,22 @@ more branching and control flow via if/elif/else if time
     - syntactically they all look identical and they are semantically equivalent
     - mention this as example of interfaces/protocols/ADTs and Duck Typing
   - mention other key protocols
-    - mapping is one
     - sequences are another
+    - mapping is one
     - functions (callable things that map input -> output) are the next we'll explore
+
+- 16:00-16:05 :: BREAK / discuss
+
+- 16:05-16:35 :: 07-MindBlown.ipynb cont.
+
+  dictionaries (maps of keys -> values)
+  - make some dictionaries 
+  - get stuff back out
+  - make some sets of things
+
+  - many functions as mappings (input -> output) just like maps are key -> value
+  - like expressions/equations in algebra
+  - side-effect free expressions can be abstracted into functions and reused
 
 - 16:35-17:00 :: wrap-up discussion and install IPython on their own computers
   - what next? How to keep learning and experimenting?
