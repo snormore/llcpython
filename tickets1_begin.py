@@ -1,7 +1,13 @@
 num_tickets = 8
 
-tickets_requested = # ask the user how many tickets she wants
+tickets_requested = int(raw_input("How many tickets would you like? "))
 
 print "You've asked for {} ticket(s)".format(tickets_requested)
-# deduct the tickets sold from available tickets
-print #the number of remaining tickets
+
+if tickets_requested > num_tickets:
+  print "You've requested too many tickets!"
+elif tickets_requested == num_tickets:
+  print "You've requested all of the tickets!"
+else:
+  num_tickets = num_tickets - tickets_requested
+  print "There are {} ticket(s) left.".format(num_tickets)
